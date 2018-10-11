@@ -12,6 +12,10 @@ public class CardTester {
 		Card card1 = new Card("ace", "spades", 11);
 		Card card2 = new Card("ace", "spades", 11);
 		Card card3 = new Card("2", "clubs", 12);
+
+
+
+
 		if (card1.matches(card2)) {
 			System.out.println("Match.");
 	} else {

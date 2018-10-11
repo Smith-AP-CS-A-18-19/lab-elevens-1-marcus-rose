@@ -100,6 +100,8 @@ public class Card {
 		/* Almost. Check the lab for the exact formatting
 		 */
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-		return this.rank + " of " + this.suit + " " + this.pointValue;
+		return this.rank + " of " + this.suit + "(point value = " + this.pointValue + ")";
+		// I think I fixed the formatting here. Let me know if its not right. Thanks!
+
 	}
 }
